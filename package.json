@@ -1,0 +1,27 @@
+{
+  "name": "walleter-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DGSW-FLUT/walleter-server.git",
+  "author": "wlsdud2194 <38432821+wlsdud2194@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "test": "jest --forceExit"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
+  }
+}
