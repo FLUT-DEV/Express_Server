@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-    - image: circleci/node:8
+    - image: wlsdud2194/node-inyarn:v1
 
     working_directory: ~/repo
 
