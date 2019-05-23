@@ -12,6 +12,9 @@ jobs:
     steps:
     - checkout
     - run:
+        name: npm set config
+        command: npm config set unsafe-perm true
+    - run:
         name: Update-npm
         command: 'npm install -g npm@latest'
 
